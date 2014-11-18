@@ -1,0 +1,39 @@
+
+<nav class="nav-primary"> 
+<ul class="sf-menu" id="example">
+			<li {% if page.cohort == null %} class="active" {% endif %}>
+				<a href="/">Home</a>
+				
+			</li>
+			<li {% if page.cohort == 'MG' %} class="active-MG" {% endif %}>
+				<a href="/sat-ed/index.html">SAT-ED</a>
+								<ul>
+					<li>
+						<a href="/sat-ed/index.html">Find Cohort Grantees</a>
+					</li>
+					<li>
+						<a href="/sat-ed/SAT-ED-timeline.html">View Site Visits Timeline</a>
+					</li>
+					
+					<li>
+						<a href="/sat-ed/SAT-ED-background.html">Review Background</a>
+					</li>
+				</ul>
+			</li>
+			<li {% if page.cohort == 'C4' %} class="active-C4" {% endif %}>
+				<a href="/cohortIV/index.html">SYT</a>
+				<ul>
+					<li>
+						<a href="/cohortIV/index.html">Find Cohort Grantees</a>
+					</li>
+					<li>
+						<a href="/cohortIV/C4-timeline.html">View Site Visits Timeline</a>
+					</li>
+					<li>
+						<a href="/cohortIV/C4-background.html">Review Background</a>
+					</li>
+				</ul>
+			</li>
+			
+		</ul>
+</nav>
