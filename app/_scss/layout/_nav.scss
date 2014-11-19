@@ -10,7 +10,7 @@
 	clear:both;
 	}
 .nav-cohort {
-	@include box-shadow(rgba(0,0,0,.1) 0 0 5px 3px);
+	// @include box-shadow(rgba(0,0,0,.1) 0 0 5px 3px);
 	font-size: 0.9em;
 	font-weight: 300;
 	letter-spacing: 0.05em;
@@ -32,13 +32,13 @@
 	}
 }
 }
-.nav-cohort-SAT-ED {
+.nav-cohort-SED {
 	@extend .nav-cohort;
-	background-color: $SAT-ED;
+	background-color: $SED;
 }
 .nav-cohort-SYT {
 	@extend .nav-cohort;
-	background-color: $C5;
+	background-color: $SYT;
 }
 .nav-cohort-inner {
 	@extend %page-margins;
@@ -174,11 +174,8 @@
 
 .active {
 	background-color: $gray;
-	&-C4 {background-color: $SAT-ED;}
-	&-C5 {background-color: $C5;}
-	&-C123 {background-color: $C123;}
-	&-MG {background-color: $MG;}
-	&-TG {background-color: $TG;}
+	&-SYT {background-color: $SYT;}
+	&-SED {background-color: $SED;}
 }
 .nav-grantee-location {
 	font-size:0.8em;

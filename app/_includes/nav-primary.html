@@ -3,37 +3,51 @@
 <ul class="sf-menu" id="example">
 			<li {% if page.cohort == null %} class="active" {% endif %}>
 				<a href="/">Home</a>
-				
 			</li>
-			<li {% if page.cohort == 'MG' %} class="active-MG" {% endif %}>
-				<a href="/SAT-ED/index.html">SAT-ED</a>
-								<ul>
+			<li {% if page.cohort == 'SED' %} class="active-SED" {% endif %}>
+				<a href="/SAT-ED/index.html">State Adolescent Treatment Enhancement and Dissemination</a>
+				<ul>
 					<li>
 						<a href="/SAT-ED/index.html">Find Cohort Grantees</a>
 					</li>
 					<li>
 						<a href="/SAT-ED/SED-timeline.html">View Site Visits Timeline</a>
 					</li>
-					
+<!-- 					<li>
+						<a href="/SAT-ED/SED-performance.html">Review Overall Performance</a>
+					</li> -->
 					<li>
 						<a href="/SAT-ED/SED-background.html">Review Background</a>
 					</li>
 				</ul>
 			</li>
-			<li {% if page.cohort == 'C4' %} class="active-C4" {% endif %}>
-				<a href="/cohortIV/index.html">SYT</a>
+			<li {% if page.cohort == 'SYT' %} class="active-SYT" {% endif %}>
+				<a href="/SYT/index.html">State Youth Treatment</a>
 				<ul>
 					<li>
-						<a href="/cohortIV/index.html">Find Cohort Grantees</a>
+						<a href="/SYT/index.html">Find Cohort Grantees</a>
 					</li>
 					<li>
-						<a href="/cohortIV/C4-timeline.html">View Site Visits Timeline</a>
+						<a href="/SYT/SYT-timeline.html">View Site Visits Timeline</a>
 					</li>
+<!-- 					<li>
+						<a href="/SYT/SYT-performance.html">Review Overall Performance</a>
+					</li> -->
 					<li>
-						<a href="/cohortIV/C4-background.html">Review Background</a>
+						<a href="/SYT/SYT-background.html">Review Background</a>
 					</li>
 				</ul>
 			</li>
-			
+<!-- 			<li {% if page.cohort == 'about' %} class="active-about" {% endif %}>
+				<a href="/SYT/index.html">About</a>
+				<ul>
+					<li>
+						<a href="#">Cras Etiam Mollis</a>
+					</li>
+					<li>
+						<a href="#">Lorem Ultricies</a>
+					</li>
+				</ul>
+			</li> -->
 		</ul>
 </nav>

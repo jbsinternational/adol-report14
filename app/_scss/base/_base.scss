@@ -29,7 +29,7 @@ h1,h2,h3,h4 {
     }
 }
 h1 {
-    font-size:2.1em;
+    font-size:2em;
     font-weight: 400;
 }
 h2 {
@@ -74,26 +74,11 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-.text-C1 {
-    color: $C1;
+.text-SYT {
+    color: $SYT;
 }
-.text-C2 {
-    color: $C2;
-}
-.text-C3 {
-    color: $C3;
-}
-.text-C4 {
-    color: $SAT-ED;
-}
-.text-C5 {
-    color: $C5;
-}
-.text-MG {
-    color: $MG;
-}
-.text-TG {
-    color: $TG;
+.text-SED {
+    color: $SED;
 }
 .label {
     font-size: 0.85em;

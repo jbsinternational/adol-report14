@@ -20,21 +20,13 @@
             &.ui-state-active {
                 z-index: 10;
                 color: #fff;
-                .C4 & {
-                    background-color: $SAT-ED;
-                    @include css-arrow(bottom, 8px, $SAT-ED, 0, transparent, none);
+                .SYT & {
+                    background-color: $SYT;
+                    @include css-arrow(bottom, 8px, $SYT, 0, transparent, none);
                 }
-                .C5 & {
-                    background-color: $C5;
-                    @include css-arrow(bottom, 8px, $C5, 0, transparent, none);
-                }
-                .MG & {
-                    background-color: $MG;
-                    @include css-arrow(bottom, 8px, $MG, 0, transparent, none);
-                }
-                .TG & {
-                    background-color: $TG;
-                    @include css-arrow(bottom, 8px, $TG, 0, transparent, none);
+                .SED & {
+                    background-color: $SED;
+                    @include css-arrow(bottom, 8px, $SED, 0, transparent, none);
                 }
             }
         }

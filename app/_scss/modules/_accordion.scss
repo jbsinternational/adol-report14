@@ -47,17 +47,11 @@
     // @include background-image(linear-gradient(top, rgba(0, 182, 238, 1) 0%, rgba(0, 158, 206, 1) 100%));
     @include box-shadow(rgba(black, 0.05) 0 0 20px 0);
     color: #fff;
-                .SAT-ED & {
-                    background-color: $SAT-ED;
+                .SYT & {
+                    background-color: $SYT;
                 }
-                .C5 & {
-                    background-color: $C5;
-                }
-                .MG & {
-                    background-color: $MG;
-                }
-                .TG & {
-                    background-color: $TG;
+                .SED & {
+                    background-color: $SED;
                 }
     &:hover {
         background-color: $med-gray;
