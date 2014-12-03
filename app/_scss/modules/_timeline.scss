@@ -1,10 +1,10 @@
 .timeline {
 	background-repeat: no-repeat repeat;
   	background-position: center;
-  	.C4 & {
+  	.SAT-ED & {
   		background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjEiPgo8cmVjdCB4PSIwIiB3aWR0aD0iNCIgaGVpZ2h0PSIxIiBmaWxsPSIjZjg5NzI4Ij48L3JlY3Q+Cjwvc3ZnPg==");
   	}
-  	.C5 & {
+  	.SYT & {
   		background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjEiPgo8cmVjdCB4PSIwIiB3aWR0aD0iNCIgaGVpZ2h0PSIxIiBmaWxsPSIjNGI4MzFmIj48L3JlY3Q+Cjwvc3ZnPg==");
   	}
   	.MG & {
@@ -52,8 +52,8 @@
 		z-index:5;
 		margin-top:25px;
 		.MG & { background-color: $MG; }
-		.C4 & { background-color: $SAT-ED; }
-		.C5 & { background-color: $C5; }
+		.SAT-ED & { background-color: $SAT-ED; }
+		.SYT & { background-color: $SYT; }
 		.TG & { background-color: $TG; }
 	}
 	&--image {
@@ -61,7 +61,7 @@
 		border: 1px solid gray;
 		.MG & { border-color: $MG; }
 		.C4 & { border-color: $SAT-ED; }
-		.C5 & { border-color: $C5; }
+		.C5 & { border-color: $SYT; }
 		.TG & { border-color: $TG; }
 		position: relative;
 		z-index:5;
@@ -94,7 +94,7 @@
 		border-top: 1px dotted gray;
 		.MG & { border-color: $MG; }
 		.C4 & { border-color: $SAT-ED; }
-		.C5 & { border-color: $C5; }
+		.C5 & { border-color: $SYT; }
 		.TG & { border-color: $TG; }
 
 	p {

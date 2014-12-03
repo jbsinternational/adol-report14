@@ -38,7 +38,7 @@
 }
 .nav-cohort-SYT {
 	@extend .nav-cohort;
-	background-color: $C5;
+	background-color: $SYT;
 }
 .nav-cohort-inner {
 	@extend %page-margins;
@@ -175,7 +175,7 @@
 .active {
 	background-color: $gray;
 	&-C4 {background-color: $SAT-ED;}
-	&-C5 {background-color: $C5;}
+	&-C5 {background-color: $SYT;}
 	&-C123 {background-color: $C123;}
 	&-MG {background-color: $MG;}
 	&-TG {background-color: $TG;}
