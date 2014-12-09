@@ -6,7 +6,8 @@ layout: default
 <h1>{{ grantee_name }}{% if grantee_name_secondary != null %}<br><span class="sub-title">{{ grantee_name_secondary }}</span>{% endif %}</h1>
 <ul class="tabs clearfix">
 	<li><a href="{{ page.cohort }}-{{ page.grantee }}-info.html"{% if page.title == 'Program Information' %} class="ui-state-active"{% endif %}>Program Information</a></li>
-	<li><a href="{{ page.cohort }}-{{ page.grantee }}-visit.html"{% if page.title == 'Site Visit Report' %} class="ui-state-active"{% endif %}>Site Visit Report</a></li>
+	
+	<li>{% if page.cohort != 'SYT' %}<a href="{{ page.cohort }}-{{ page.grantee }}-visit.html"{% if page.title == 'Site Visit Report' %} class="ui-state-active"{% endif %}>Site Visit Report</a>{% endif %}</li>
 </ul>
 <div class="grantee-content clearfix">
 	<div class="grantee-content-left">{{ content }}</div>
@@ -19,3 +20,5 @@ layout: default
 </div>
 		</div>
 </div>
+
+
