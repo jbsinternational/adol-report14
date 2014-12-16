@@ -3,5 +3,181 @@ layout: content
 parent: overview 
 cohort: SED
 title: Evidence-Based Practices
----
+--- 
+<script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+var data = google.visualization.arrayToDataTable([
+         ['Evidence-Based Practices', 'Utilizations'],
+         ['A-CRA/ACC', 5],            
+         ['A-CRA', 5],            
+         ['MDFT', 1],            
+         ['CASI', 1],                     
+         ['ICT', 1],                     
+         ['Seven Challenges', 1],                     
+      ]);
+
+        var options = {
+          // title: 'Company Performance',
+         //hAxis: { ticks: [0,1,2,3,4,5,6,7,8], title: 'Number of Cohort I grantees who utilized specified technology' },
+        chartArea: {width: '100%', right: '0'},
+
+         fontName: 'Lato',
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+<div class="l-evidence">
+<div class="cohort-title-block">
 <h2>{{ page.title }}</h2>
+</div>
+
+<div id="chart_div" class="chart" style="height: 350px; width:41%"></div>
+<table class="table" style="width:auto;">
+    <thead> 
+        <tr>
+            <th>SAT-ED</th>
+            <th class="table--cell-center">A-CRA<br>/ACC</th>
+            <th class="table--cell-center">A-CRA</th>
+            <th class="table--cell-center">MDFT</th>
+            <th class="table--cell-center">ICT</th>
+            <th class="table--cell-center">MET/CBT</th>
+            <th class="table--cell-center">Seven<br>Challenges</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="table--row-header">Illinois</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Indiana</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Iowa</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Kentucky</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Louisiana</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Maine</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Massachusetts</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Montana</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">New York</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        	<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Oklahoma</td>
+        	<td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Puerto Rico</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">South Carolina</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Washington</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="table--row-total">
+            <td class="table--row-header">Total</td>
+            <td class="table--cell-center">5</td>
+            <td class="table--cell-center">5</td>
+            <td class="table--cell-center">1</td>
+            <td class="table--cell-center">1</td>
+            <td class="table--cell-center">1</td>
+            <td class="table--cell-center">1</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+  
