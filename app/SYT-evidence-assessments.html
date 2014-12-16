@@ -1,0 +1,307 @@
+ cohort: SYT
+ title: Evidence-Based Assessments
+ ---
+-<h2>{{ page.title }}</h2>
+\ No newline at end of file
+
+ <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+var data = google.visualization.arrayToDataTable([
+         ['Evidence-Based Assessments', 'Utilizations'],
+       	 ['GAIN-I Full', 2], 
+       	 ['GAIN-Q3', 3], 
+         ['CASI', 1],  
+         ['CASII', 1],                      
+         ['PADDI-5', 1],                                
+         ['T-ASI', 2],                     
+      ]);
+
+        var options = {
+          // title: 'Company Performance',
+         //hAxis: { ticks: [0,1,2,3,4,5,6,7,8], title: 'Number of Cohort I grantees who utilized specified technology' },
+        chartArea: {width: '100%', right: '0'},
+
+         fontName: 'Lato',
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('adol_chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+<div class="l-evidence">
+<div class="cohort-title-block">
+<h2>{{ page.title }}</h2>
+</div>
+<h3>Adolescent Evidence-Based Assessments</h3>
+<div id="adol_chart_div" class="chart" style="height: 350px; width:41%"></div>
+<table class="table" style="width:auto;">
+    <thead> 
+        <tr>
+            <th>SYT</th>
+            <th class="table--cell-center">GAIN-I Full</th>
+            <th class="table--cell-center">GAIN-Q3</th>
+            <th class="table--cell-center">CASI</th>
+            <th class="table--cell-center">CASII</th>
+            <th class="table--cell-center">PADDI-5</th>
+            <th class="table--cell-center">T-ASI</th>
+
+        </tr>
+    </thead>
+   <tbody>
+        <tr>
+            <td class="table--row-header">Alaska</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Arizona</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Chickasaw Nation</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Colorado</td>
+           <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">District of Columbia</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Fallon Paiute<br>Shoshone Tribe</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Idaho</td>
+            <td colspan="5" style="text-align:center;">(Idaho SYT is not serving adolescents)</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Maryland</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Mississippi</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Tennessee</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Vermont</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+           	<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="table--row-total">
+            <td class="table--row-header">Total</td>
+            <td class="table--cell-center">2</td>
+            <td class="table--cell-center">3</td>
+            <td class="table--cell-center">1</td>
+            <td class="table--cell-center">1</td>
+            <td class="table--cell-center">1</td>
+            <td class="table--cell-center">2</td>
+        </tr>
+    </tbody>
+</table>
+ <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+var data = google.visualization.arrayToDataTable([
+         ['Evidence-Based Practices', 'Utilizations'],
+       	 ['GAIN-I Full', 2], 
+       	 ['GAIN-Q3', 3], 
+         ['CASI', 1],  
+         ['ASAM', 1],                      
+         ['CAAPE-5', 1],                                
+         ['ASI', 2],                      
+      ]);
+
+        var options = {
+          // title: 'Company Performance',
+         //hAxis: { ticks: [0,1,2,3,4,5,6,7,8], title: 'Number of Cohort I grantees who utilized specified technology' },
+        chartArea: {width: '100%', right: '0'},
+
+         fontName: 'Lato',
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('TAY_chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+<h3 class="clearfix"> Transitional-Aged Youth (TAY) Evidence-Based Assessments</h3>
+<div id="TAY_chart_div" class="chart" style="height: 350px; width:41%"></div>
+<table class="table" style="width:auto;">
+    <thead> 
+        <tr>
+            <th>SYT</th>
+            <th class="table--cell-center">GAIN-I Full</th>
+            <th class="table--cell-center">GAIN-Q3</th>
+            <th class="table--cell-center">CASI</th>
+            <th class="table--cell-center">ASAM</th>
+            <th class="table--cell-center">CAAPE-5</th>
+            <th class="table--cell-center">ASI</th>
+
+        </tr>
+    </thead>
+      <tbody>
+        <tr>
+            <td class="table--row-header">Alaska</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Arizona</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Chickasaw Nation</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Colorado</td>
+           <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">District of Columbia</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Fallon Paiute<br>Shoshone Tribe</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Idaho</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Maryland</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Mississippi</td>
+            <td colspan="6" style="text-align:center;">(Mississippi SYT is not serving TAY)</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Tennessee</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+        </tr>
+        <tr>
+            <td class="table--row-header">Vermont</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="table--cell--selected">&#8226;</td>
+           	<td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="table--row-total">
+            <td class="table--row-header">Total</td>
+            <td class="table--cell-center">2</td>
+            <td class="table--cell-center">3</td>
+            <td class="table--cell-center">1</td>
+            <td class="table--cell-center">1</td>
+            <td class="table--cell-center">1</td>
+            <td class="table--cell-center">2</td>
+        </tr>
+    </tbody>
+</table>
+</div>

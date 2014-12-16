@@ -14,10 +14,13 @@ layout: default
 	<div class="grantee-content-right">
 <img src="/img/{{ page.cohort }}-{{ page.grantee }}-site.jpg" class="grantee-photo" alt="{{ grantee_name }}">
 {% include {{data_include}} %}
+
+{% if page.cohort != 'SYT' %}
 <div class="grantee-pdf">
     <a href="pdf/{{ page.cohort }}-{{ page.grantee }}.pdf" target="_blank">
         <img src="/img/{{ page.cohort }}-{{ page.grantee }}-pdf.jpg" alt="PDF of {{ grantee_name }}'s Site Visit Report">Site Report (PDF {{ page.pdf-size }})</a>
 </div>
+{% endif %}
 		</div>
 </div>
 

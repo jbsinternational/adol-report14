@@ -7,7 +7,6 @@ layout: default
 {% if page.parent != NULL %}
 	<ul class="tabs clearfix">
 		{% if page.parent == 'overview' %}
-		<li><a href="{{ page.cohort }}-overview.html"{% if page.title == 'Cohort Overview' %} class="ui-state-active"{% endif %}>Cohort Overview</a></li>
 		<li><a href="{{ page.cohort }}-lessons.html"{% if page.title == 'Lessons Learned' %} class="ui-state-active"{% endif %}>Lessons Learned</a></li>
 		<li><a href="{{ page.cohort }}-evidence.html"{% if page.title == 'Evidence-Based Practices' %} class="ui-state-active"{% endif %}>Evidence-Based Practices </a></li>
 		<li><a href="{{ page.cohort }}-evidence-assessments.html"{% if page.title == 'Evidence-Based Assessments' %} class="ui-state-active"{% endif %}>Evidence-Based Assessments</a></li>
