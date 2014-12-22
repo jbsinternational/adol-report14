@@ -66,6 +66,14 @@
 		display: block;
 		margin: -5px auto 0;
 	}
+	&--last-syt:after {
+		content: "";
+		width: 4px;
+		height: 5px;
+		background-color: #fff;
+		display: block;
+		margin: -32px auto 0;
+	}
 	&--grantee-odd, &--grantee-even {
 		position: absolute;
 		text-align: left;
