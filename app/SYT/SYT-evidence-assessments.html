@@ -6,31 +6,34 @@ title: Evidence-Based Assessments
 ---
 
  <script type="text/javascript">
-      google.load("visualization", "1", {packages:["corechart"]});
-      google.setOnLoadCallback(drawChart);
+
+
+
+google.setOnLoadCallback(drawChart);
+
       function drawChart() {
-var data = google.visualization.arrayToDataTable([
-         ['Evidence-Based Assessments', 'Utilizations'],
-       	 ['GAIN-I Full', 2], 
-       	 ['GAIN-Q3', 3], 
+        var dataTable = new google.visualization.DataTable();
+        dataTable.addColumn('string', 'Evidence-Based Assessments');
+        dataTable.addColumn('number', 'Utilizations');
+        dataTable.addRows([
+         ['GAIN-I Full', 2], 
+         ['GAIN-Q3', 3], 
          ['CASI', 1],  
          ['CASII', 1],                      
          ['PADDI-5', 1],                                
-         ['T-ASI', 2],                     
-      ]);
+         ['T-ASI', 2],   
+        ]);
 
-        var options = {
-          // title: 'Company Performance',
-         //hAxis: { ticks: [0,1,2,3,4,5,6,7,8], title: 'Number of Cohort I grantees who utilized specified technology' },
-        chartArea: {width: '100%', right: '0'},
-
-         fontName: 'Lato',
-        };
-
+        var options = { chartArea: {width: '100%', right: '0'}, fontName: 'Lato',};
         var chart = new google.visualization.PieChart(document.getElementById('adol_chart_div'));
-
-        chart.draw(data, options);
+        chart.draw(dataTable, options);
       }
+
+
+
+
+
+
     </script>
 <div class="l-evidence">
 <div class="cohort-title-block">

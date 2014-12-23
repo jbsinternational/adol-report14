@@ -1,0 +1,74 @@
+{% if page.eb-assessment != null or page.eb-practice != null %}
+<div class="grantee--evidence">
+	{% if page.eb-assessment != null %}
+	<div class="label">Evidence-Based Assessments:</div>
+    <ul class="grantee--evidence--assessment">
+        {% if page.eb-assessment contains 'GAIN-IF' %}
+        <li><a href="http://www.gaincc.org/index.cfm?pageID=49" target="_blank">GAIN-I Full<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="GAIN-IF"></span>
+        </li>{% endif %} {% if page.eb-assessment contains 'GAIN-IL' %}
+        <li><a href="http://www.gaincc.org/index.cfm?pageID=49" target="_blank">GAIN-I Lite<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="GAIN-IL"></span>
+        </li>{% endif %} {% if page.eb-assessment contains 'GAIN-Q3' %}
+        <li><a href="http://www.gaincc.org/index.cfm?pageID=49" target="_blank">GAIN-Q3<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="GAIN-Q3"></span>
+        </li>{% endif %} {% if page.eb-assessment contains 'CASI_' %}
+        <li><a href="http://pubs.niaaa.nih.gov/publications/AssessingAlcohol/InstrumentPDFs/21_CASI.pdf" target="_blank">CASI<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="CASI_"></span>
+        </li>{% endif %} {% if page.eb-assessment contains 'CASII' %}
+        <li><a href="http://www.aacap.org/aacap/Member_Resources/Practice_Information/CASII.aspx" target="_blank">CASII<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="CASII"></span>
+        </li>{% endif %} {% if page.eb-assessment contains 'PADDI-5' %}
+        <li><a href="http://www.evinceassessment.com/product_paddi.html" target="_blank">PADDI-5<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="PADDI-5"></span>
+        </li>{% endif %} {% if page.eb-assessment contains 'CAAPE-5' %}
+        <li><a href="(http://www.evinceassessment.com/product_caape.html" target="_blank">CAAPE-5<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="CAAPE-5"></span>
+        </li>{% endif %} {% if page.eb-assessment contains 'T-ASI' %}
+        <li><a href="http://pubs.niaaa.nih.gov/publications/AssessingAlcohol/InstrumentPDFs/70_T-ASI.pdf" target="_blank">T-ASI<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="T-ASI"></span>
+        </li>{% endif %} {% if page.eb-assessment contains 'ASI_' %}
+        <li><a href="http://alcoholrehab.com/addiction-articles/addiction-severity-index-asi/" target="_blank">ASI<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="ASI_"></span>
+        </li>{% endif %} {% if page.eb-assessment contains 'ASAM' %}
+        <li><a href="http://www.asam.org/publications/the-asam-criteria/about/" target="_blank">ASAM<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="ASAM"></span>
+        </li>{% endif %}
+    </ul>{% endif %}
+    {% if page.eb-practice != null %}
+	<div class="label">Evidence-Based Practices:</div>
+    <ul class="grantee--evidence--practice">
+        {% if page.eb-practice contains 'MET' %}
+        <li><a href="http://nrepp.samhsa.gov/ViewIntervention.aspx?id=31" target="_blank">MET/CBT<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="MET"></span>
+        </li>{% endif %} {% if page.eb-practice contains 'A-CRA' %}
+        <li><a href="http://www.nrepp.samhsa.gov/ViewIntervention.aspx?id=41" target="_blank">A-CRA<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="A-CRA"></span>
+        </li>{% endif %} {% if page.eb-practice contains 'ACC' %}
+        <li><a href="http://www.nrepp.samhsa.gov/ViewIntervention.aspx?id=41" target="_blank">A-CRA/ACC<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="ACC"></span>
+        </li>{% endif %} {% if page.eb-practice contains 'MDFT' %}
+        <li><a href="http://www.nrepp.samhsa.gov/ViewIntervention.aspx?id=16" target="_blank">MDFT<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="MDFT"></span>
+        </li>{% endif %} {% if page.eb-practice contains 'ICT' %}
+        <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/15618940" target="_blank">ICT<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="ICT"></span>
+        </li>{% endif %} {% if page.eb-practice contains 'Seven' %}
+        <li><a href="(http://www.nrepp.samhsa.gov/ViewIntervention.aspx?id=159" target="_blank">Seven Challenges<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="Seven"></span>
+        </li>{% endif %} {% if page.eb-practice contains 'PLL' %}
+        <li><a href="http://www.nrepp.samhsa.gov/ViewIntervention.aspx?id=45" target="_blank">PLL<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="PLL"></span>
+        </li>{% endif %} {% if page.eb-practice contains 'Journaling' %}
+        <li><a href="http://www.nrepp.samhsa.gov/ViewIntervention.aspx?id=333" target="_blank">Interactive Journaling<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="Journaling"></span>
+        </li>{% endif %} {% if page.eb-practice contains 'Seeking' %}
+        <li><a href="http://www.nrepp.samhsa.gov/ViewIntervention.aspx?id=139" target="_blank">Seeking Safety<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="Seeking"></span>
+        </li>{% endif %} {% if page.eb-practice contains 'Matrix' %}
+        <li><a href="http://www.nrepp.samhsa.gov/ViewIntervention.aspx?id=87" target="_blank">Matrix Modeling<span class="icon--external"></span></a>
+            <span class="icon--tooltip tooltip" id="Matrix"></span>
+        </li>{% endif %}
+    </ul>{% endif %}
+</div>
+{% endif %}
