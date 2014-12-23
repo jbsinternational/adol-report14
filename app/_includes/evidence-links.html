@@ -1,7 +1,7 @@
 {% if page.eb-assessment != null or page.eb-practice != null %}
 <div class="grantee--evidence">
 	{% if page.eb-assessment != null %}
-	<div class="label">Evidence-Based Assessments:</div>
+	<div class="label">Evidence-Based Assessment{% if page.eb-assessment contains ',' %}s{% endif %}:</div>
     <ul class="grantee--evidence--assessment">
         {% if page.eb-assessment contains 'GAIN-IF' %}
         <li><a href="http://www.gaincc.org/index.cfm?pageID=49" target="_blank">GAIN-I Full<span class="icon--external"></span></a>
@@ -36,7 +36,7 @@
         </li>{% endif %}
     </ul>{% endif %}
     {% if page.eb-practice != null %}
-	<div class="label">Evidence-Based Practices:</div>
+	<div class="label">Evidence-Based Practice{% if page.eb-practice contains ',' %}s{% endif %}:</div>
     <ul class="grantee--evidence--practice">
         {% if page.eb-practice contains 'MET' %}
         <li><a href="http://nrepp.samhsa.gov/ViewIntervention.aspx?id=31" target="_blank">MET/CBT<span class="icon--external"></span></a>
