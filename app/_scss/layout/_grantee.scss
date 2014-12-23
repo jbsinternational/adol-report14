@@ -43,3 +43,23 @@
 		border: 1px solid $light-gray;
 	}
 }
+.grantee--evidence {
+	    @include box-shadow(rgba(black, 0.1) 1px 1px 6px 0);
+	    padding: 10px 20px;
+	    margin-top:25px;
+	    margin-bottom: 25px;
+	    clear: both;
+	    	.SYT & {
+                    //background-color: tint($SYT,82%);
+                    border-top:10px $SYT solid;
+                }
+            .SED & {
+                    //background-color: tint($SED,82%);
+                    border-top:10px $SED solid;
+                }	    
+	    > ul {
+	    	padding-left:0;
+	    	list-style: none;
+	    	margin-top: 0.25em;
+	    }
+}
