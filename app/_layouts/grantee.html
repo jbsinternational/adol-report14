@@ -14,7 +14,7 @@ layout: default
 	<div class="grantee-content-right">
 <img src="/img/{{ page.cohort }}-{{ page.grantee }}-site.jpg" class="grantee-photo" alt="{{ grantee_name }}">
 {% include {{data_include}} %}
-
+{% include evidence-links.html %}
 {% if page.cohort != 'SYT' %}
 <div class="grantee-pdf">
     <a href="pdf/{{ page.cohort }}-{{ page.grantee }}.pdf" target="_blank">
