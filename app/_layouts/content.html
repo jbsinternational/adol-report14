@@ -8,12 +8,12 @@ layout: default
 	<ul class="tabs clearfix">
 		{% if page.parent == 'overview' %}
 		<li><a href="{{ page.cohort }}-lessons.html"{% if page.title == 'Lessons Learned' %} class="ui-state-active"{% endif %}>Lessons Learned</a></li>
-		<li><a href="{{ page.cohort }}-evidence.html"{% if page.title == 'Evidence-Based Practices' %} class="ui-state-active"{% endif %}>Evidence-Based Practices </a></li>
+		<li><a href="{{ page.cohort }}-evidence.html"{% if page.title == 'Evidence-Based Practices' %} class="ui-state-active"{% endif %}>Evidence-Based Practices</a> </li>
 		<li><a href="{{ page.cohort }}-evidence-assessments.html"{% if page.title == 'Evidence-Based Assessments' %} class="ui-state-active"{% endif %}>Evidence-Based Assessments</a></li>
 		{% endif %}
 
 		{% if page.parent == 'background' %}
-		<li><a href="{{ page.cohort }}-background.html"{% if page.title == 'About' %} class="ui-state-active"{% endif %}>About SAMHSA’s Adolescent Program </a></li>
+		<li><a href="{{ page.cohort }}-background.html"{% if page.title == 'About' %} class="ui-state-active"{% endif %}>About SAMHSA’s Adolescent Program</a> </li>
 		<li><a href="{{ page.cohort }}-about.html"{% if page.title == 'About Page' %} class="ui-state-active"{% endif %}>About {{ cohort_name }}</a></li>
 		<li><a href="{{ page.cohort }}-visits.html"{% if page.title == 'About Site Visits' %} class="ui-state-active"{% endif %}>About Site Visits</a></li>
 		{% endif %}
